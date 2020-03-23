@@ -6,13 +6,7 @@ def add2(x: int, y: int) -> float:
     return x + y
 
 def calculate_pixel_brightness(red:int, green:int, blue:int) -> float:
-    """
-    Calculates the brightnss of a pixel from its r,g,b values
-    :param x: the red value of pixel
-    :param y: the green value of pixel
-    :param z: the blue value of pixel
-    :return: the brightness of the pixel
-    """
+    """    Calculates the brightnss of a pixel from its r,g,b values    """
     return statistics.mean([x, y, z])
 
 pixels = [
