@@ -2,7 +2,10 @@
 
 import statistics
 
-def calculate_pixel_brightness(x, y, z):
+def add2(x: int, y: int) -> float:
+    return x + y
+
+def calculate_pixel_brightness(red:int, green:int, blue:int) -> float:
     """
     Calculates the brightnss of a pixel from its r,g,b values
     :param x: the red value of pixel
